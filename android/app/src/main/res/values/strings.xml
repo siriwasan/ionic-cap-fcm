@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ionic Capcitor FCM</string>
+    <string name="title_activity_main">Ionic Capcitor FCM</string>
+    <string name="package_name">com.siri.ionicfcm</string>
+    <string name="custom_url_scheme">com.siri.ionicfcm</string>
+</resources>

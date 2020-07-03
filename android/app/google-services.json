@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "610167133491",
+    "firebase_url": "https://ionic-capacitor-fcm.firebaseio.com",
+    "project_id": "ionic-capacitor-fcm",
+    "storage_bucket": "ionic-capacitor-fcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610167133491:android:1eefe7398921fa2d445a46",
+        "android_client_info": {
+          "package_name": "com.siri.ionicfcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610167133491-annt1ah0l0ecp4cfotri9254ith9jdps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3c2NmHPM8LcZxSrQZU_JdZLf_H30hJ3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610167133491-annt1ah0l0ecp4cfotri9254ith9jdps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
