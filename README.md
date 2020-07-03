@@ -7,7 +7,7 @@
 3. npx cap init
 4. ionic build
 5. npx cap add android
-6. npx cap copy
+6. npx cap copy (or ionic cap sync)
 
 ## Reference
 

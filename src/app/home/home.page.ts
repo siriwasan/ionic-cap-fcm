@@ -11,12 +11,23 @@ const { PushNotifications } = Plugins;
   styleUrls: ['home.page.scss'],
 })
 export class HomePage implements OnInit {
-  constructor(private badge: Badge) {
-    this.badge.set(10);
-  }
+  constructor(private badge: Badge) {}
 
   ngOnInit() {
     console.log('Initializing HomePage');
+
+    this.badge.isSupported().then((result) => {
+      alert('isSupported: ' + result);
+
+      this.badge.requestPermission().then((res) => {
+        alert('requestPermission: ' + result);
+
+        this.badge.hasPermission().then((r) => {
+          alert('hasPermission: ' + result);
+          this.badge.set(10);
+        });
+      });
+    });
 
     // Request permission to use push notifications
     // iOS will prompt user and return if they granted permission or not
